@@ -1,0 +1,5 @@
+en-de
+iwslt-en-de-preprocessed.tar.gz
+*.swp
+*.DS_Store
+result*
