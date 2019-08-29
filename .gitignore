@@ -1,5 +1,6 @@
 en-de
 iwslt-en-de-preprocessed.tar.gz
+.idea
 *.swp
 *.DS_Store
 result*
