@@ -106,6 +106,8 @@ if __name__ == '__main__':
     parser.add_argument('train', help='Path to the corpus file.')
     parser.add_argument('dev', help='Path to the validation corpus file.')
     parser.add_argument('test', help='Path to the test corpus file.')
+    parser.add_argument('--print_probs', action="store_true", help='whether to print the probabilities per word over the validation set')
+    parser.add_argument('--perform_train', action="store_true", help='whether to perform training')
     args, unknown = parser.parse_known_args()
 
     train = util.CharsCorpusReader(args.train, begin="<s>")
@@ -125,7 +127,7 @@ if __name__ == '__main__':
 
     prev_dev_ppl = 100000
 
-    '''
+    
     chars = loss = 0.0
     for ITER in range(100):
         random.shuffle(train)
@@ -155,7 +157,7 @@ if __name__ == '__main__':
             #print "TM:",(time.time() - _start)/len(sent)
         print("ITER {}, loss={}".format(ITER, loss))
         trainer.status()
-    '''
+    
 
     #lm.save_to_disk("LSTMLanguageModel.model")
 

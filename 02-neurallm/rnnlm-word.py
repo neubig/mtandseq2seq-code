@@ -98,6 +98,34 @@ class RNNLanguageModel:
             chars += len(sent)-1
         return math.exp(loss/chars)
 
+
+    def print_probs(self, sent):
+        dy.renew_cg()
+        # initialize the RNN
+        init_state = self.builder.initial_state()
+        # parameters -> expressions
+        R = dy.parameter(self.R)
+        bias = dy.parameter(self.bias)
+
+        # get the cids and masks for each step
+        tot_chars = 0
+        cids = []
+        for w in sent:
+            cids.append(vocab.w2i[w])
+        # start the rnn with "<s>"
+        init_ids = cids[0]
+        s = init_state.add_input(dy.lookup(self.lookup, init_ids))
+
+        # feed char vectors into the RNN and predict the next char
+        for cid in cids[1:]:
+            score = dy.affine_transform([bias, R, s.output()])
+            loss = dy.pickneglogsoftmax(score, cid)
+            print(f"{vocab.i2w[cid]} {loss.value()}")
+            # update the state of the RNN
+            cemb = dy.lookup(self.lookup, cid)
+            s = s.add_input(cemb)
+
+
             
 
 
@@ -106,6 +134,8 @@ if __name__ == '__main__':
     parser.add_argument('train', help='Path to the corpus file.')
     parser.add_argument('dev', help='Path to the validation corpus file.')
     parser.add_argument('test', help='Path to the test corpus file.')
+    parser.add_argument('--print_probs',action="store_true",  help='whether to print the probabilities per word over the validation set')
+    parser.add_argument('--perform_train', action="store_true", help='whether to perform training')
     args, unknown = parser.parse_known_args()
 
     train = util.CorpusReader(args.train, begin="<s>", end="</s>")
@@ -122,49 +152,53 @@ if __name__ == '__main__':
 
     lm = RNNLanguageModel(model, LAYERS, INPUT_DIM, HIDDEN_DIM, VOCAB_SIZE, builder=dy.LSTMBuilder)
 
-    train = list(train)
+    if args.perform_train:
+        train = list(train)
 
-    prev_dev_ppl = 100000
+        prev_dev_ppl = 100000
 
-    chars = loss = 0.0
-    for ITER in range(100):
-        random.shuffle(train)
-        for i,sent in enumerate(train):
-            _start = time.time()
-            if i % 5000 == 0:
-                trainer.status()
-                if chars > 0: print(loss / chars,)
-                for _ in range(1):
-                    samp = lm.sample(first=vocab.w2i["<s>"],stop=vocab.w2i["</s>"])
-                    print(" ".join([vocab.i2w[c] for c in samp]).strip())
-                
-                devppl = lm.get_ppl(dev)
-                print(f"DEV ppl: {devppl}")
-                if devppl < prev_dev_ppl:
-                    lm.save_to_disk("LSTMLanguageModel-word.model")
-                    prev_dev_ppl = devppl
-                loss = 0.0
-                chars = 0.0
-                
-            chars += len(sent)-1
-            isent = [vocab.w2i[w] for w in sent]
-            errs = lm.build_lm_graph(isent)
-            loss += errs.scalar_value()
-            errs.backward()
-            trainer.update()
-            #print "TM:",(time.time() - _start)/len(sent)
-        print("ITER {}, loss={}".format(ITER, loss))
-        trainer.status()
+        chars = loss = 0.0
+        for ITER in range(100):
+            random.shuffle(train)
+            for i,sent in enumerate(train):
+                _start = time.time()
+                if i % 5000 == 0:
+                    trainer.status()
+                    if chars > 0: print(loss / chars,)
+                    for _ in range(1):
+                        samp = lm.sample(first=vocab.w2i["<s>"],stop=vocab.w2i["</s>"])
+                        print(" ".join([vocab.i2w[c] for c in samp]).strip())
+                    
+                    devppl = lm.get_ppl(dev)
+                    print(f"DEV ppl: {devppl}")
+                    if devppl < prev_dev_ppl:
+                        lm.save_to_disk("models/LSTMLanguageModel-word.model")
+                        prev_dev_ppl = devppl
+                    loss = 0.0
+                    chars = 0.0
+                    
+                chars += len(sent)-1
+                isent = [vocab.w2i[w] for w in sent]
+                errs = lm.build_lm_graph(isent)
+                loss += errs.scalar_value()
+                errs.backward()
+                trainer.update()
+                #print "TM:",(time.time() - _start)/len(sent)
+            print("ITER {}, loss={}".format(ITER, loss))
+            trainer.status()
 
-
-    #lm.save_to_disk("LSTMLanguageModel.model")
 
     print("loading the saved model...")
-    lm.load_from_disk("LSTMLanguageModel-word.model")
-    samp = lm.sample(first=vocab.w2i["<s>"],stop=vocab.w2i["\n"])
+    lm.load_from_disk("models/LSTMLanguageModel-word.model")
+    samp = lm.sample(first=vocab.w2i["<s>"],stop=vocab.w2i["</s>"])
     print(" ".join([vocab.i2w[c] for c in samp]).strip())
 
     test_ppl = lm.get_ppl(test)
     print(f"Test perplexity: {test_ppl}")
+
+    if args.print_probs:
+        for sent in list(dev):
+            lm.print_probs(sent)
+            print()
 
  

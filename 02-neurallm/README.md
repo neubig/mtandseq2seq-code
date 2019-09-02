@@ -3,25 +3,26 @@ by Antonis Anastasopoulos
 
 This is an example of a simple LSTM neural language model.
 
+## Preparing the Data
+	
+First we find the word with frequency larger than 1
+
+	py replace_unk.py ../en-de/train.en-de.low.en ../en-de/train.en-de.low.unk.en 1 ../en-de/vocab.en
+
+And make sure that UNKs are also replaced with `<UNK>` in the dev and test
+
+	py replace_unk_given_vocab.py ../en-de/valid.en-de.low.en ../en-de/valid.en-de.low.unk.en ../en-de/vocab.en
+	py replace_unk_given_vocab.py ../en-de/test.en-de.low.en ../en-de/test.en-de.low.unk.en ../en-de/vocab.en
+
 ## Basic Usage
 
-Usage:
+	py rnnlm.py train dev test --train
 
-    python neural_lm.py train_data.txt test_data.txt
+Use `rnnlm.py` for a character-level LM on the example data in the top directory:
 
-For example, on the example data in the top directory:
-
-    python neural_lm.py ../en-de/train.en-de.low.en ../en-de/valid.en-de.low.en
-
-You can also set some hyper-parameters
-
-    python ngram_lm.py --uni_prob 0.3 --unk_prob 0.005 ../en-de/train.en-de.low.en ../en-de/valid.en-de.low.en
+    py rnnlm.py ../en-de/train.en-de.low.unk.en  ../en-de/valid.en-de.low.unk.en ../en-de/test.en-de.low.unk.en --dynet-autobatch 1 --dynet-mem 4000
 
 ## Advanced Examples
-
-You can perform grid search to find the best interpolation coefficients, an example is shown in `grid_search.sh`
-
-    bash grid_search.sh
 
 You can also print out the probabilities of each word:
 
