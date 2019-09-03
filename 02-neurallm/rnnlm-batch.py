@@ -3,7 +3,7 @@ import time
 import random
 
 LAYERS = 2
-INPUT_DIM = 256 #50  #256
+INPUT_DIM = 128 #50  #256
 HIDDEN_DIM = 256 # 50  #1024
 VOCAB_SIZE = 0
 MB_SIZE = 50  # mini batch size
@@ -31,7 +31,6 @@ class RNNLanguageModel:
     def load_from_disk(self, filename):
         (self.builder, self.lookup, self.R, self.bias) = dy.load(filename, model)
 
-
     # Build the language model graph
     def BuildLMGraph(self, sents):
         dy.renew_cg()
@@ -43,7 +42,7 @@ class RNNLanguageModel:
 
         S = vocab.w2i["</s>"]
         # get the cids and masks for each step
-        tot_chars = 0
+        tot_words = 0
         cids = []
         masks = []
 
@@ -51,7 +50,7 @@ class RNNLanguageModel:
             cids.append([(vocab.w2i[sent[i]] if len(sent) > i else S) for sent in sents])
             mask = [(1 if len(sent)>i else 0) for sent in sents]
             masks.append(mask)
-            tot_chars += sum(mask)
+            tot_words += sum(mask)
 
         # start the rnn with "<s>"
         init_ids = cids[0]
@@ -74,7 +73,7 @@ class RNNLanguageModel:
             cemb = dy.lookup_batch(self.lookup, cid)
             s = s.add_input(cemb)
 
-        return dy.sum_batches(dy.esum(losses)), tot_chars
+        return dy.sum_batches(dy.esum(losses)), tot_words
 
 
     def sample(self, first=1, nchars=0, stop=-1):
@@ -177,34 +176,26 @@ if __name__ == '__main__':
             random.shuffle(train_order)
             #_start = time.time()
             for sid in train_order: 
-                i += 1
-                if i % int(100) == 0:
-                    trainer.status()
-                    if chars > 0: print(loss / chars,)
-                    for _ in range(1):
-                        samp = lm.sample(first=vocab.w2i["<s>"],stop=vocab.w2i["</s>"])
-                        print(" ".join([vocab.i2w[c] for c in samp]).strip())
-                    
-                    devppl = lm.get_ppl(dev)
-                    print(f"DEV ppl: {devppl}")
-                    if devppl < prev_dev_ppl:
-                        lm.save_to_disk("LSTMLanguageModel-word-batch.model")
-                        prev_dev_ppl = devppl
-                    loss = 0.0
-                    chars = 0.0
-
                 # train on the minibatch
-                errs, mb_chars = lm.BuildLMGraph(train[sid: sid + MB_SIZE])
+                errs, mb_words = lm.BuildLMGraph(train[sid: sid + MB_SIZE])
                 loss += errs.scalar_value()
-                chars += mb_chars
+                chars += mb_words
                 errs.backward()
                 trainer.update()
 
             print("ITER",ITER,loss)
             trainer.status()
+            # Eval on the development set
+            devppl = lm.get_ppl(dev)
+            print(f"DEV ppl: {devppl}")
+            if devppl < prev_dev_ppl:
+                lm.save_to_disk("models/LSTMLanguageModel-word-batch.model")
+                prev_dev_ppl = devppl
+            loss = 0.0
+            chars = 0.0
 
     print("loading the saved model...")
-    lm.load_from_disk("LSTMLanguageModel-word-batch.model")
+    lm.load_from_disk("models/LSTMLanguageModel-word-batch.model")
     samp = lm.sample(first=vocab.w2i["<s>"],stop=vocab.w2i["</s>"])
     print(" ".join([vocab.i2w[c] for c in samp]).strip())
 
