@@ -1,7 +1,7 @@
-# Interpolated bi-gram model code example
+# Neural language model code example
 by Antonis Anastasopoulos
 
-This is an example of a simple LSTM neural language model.
+This is an example of a simple LSTM neural language model, based on the DyNet examples.
 
 ## Preparing the Data
 	
@@ -16,14 +16,14 @@ And make sure that UNKs are also replaced with `<UNK>` in the dev and test
 
 ## Basic Usage
 
-	py rnnlm.py train dev test --train
+	py rnnlm.py train dev test --perform_train
 
 Use `rnnlm.py` for a character-level LM on the example data in the top directory:
 
-    py rnnlm.py ../en-de/train.en-de.low.unk.en  ../en-de/valid.en-de.low.unk.en ../en-de/test.en-de.low.unk.en --dynet-autobatch 1 --dynet-mem 4000
+    py rnnlm.py ../en-de/train.en-de.low.unk.en  ../en-de/valid.en-de.low.unk.en ../en-de/test.en-de.low.unk.en --perform_train
 
 ## Advanced Examples
 
 You can also print out the probabilities of each word:
 
-    python ngram_lm.py --print_probs ../en-de/train.en-de.low.en ../en-de/valid.en-de.low.en > result-probs.txt
+    python rnnlm-batch.py ../en-de/train.en-de.low.en ../en-de/valid.en-de.low.en ../en-de/test.en-de.low.unk.en --print_probs > result-probs.txt
