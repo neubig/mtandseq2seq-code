@@ -119,12 +119,10 @@ class RNNLanguageModel:
         init_ids = cids[0]
         s = init_state.add_input(dy.lookup(self.lookup, init_ids))
 
-        # feed char vectors into the RNN and predict the next char
         for cid in cids[1:]:
             score = dy.affine_transform([bias, R, s.output()])
             loss = dy.pickneglogsoftmax(score, cid)
             print(f"{vocab.i2w[cid]} {math.exp(-loss.value())}")
-            # update the state of the RNN
             cemb = dy.lookup(self.lookup, cid)
             s = s.add_input(cemb)
 
