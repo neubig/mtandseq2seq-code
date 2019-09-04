@@ -1,0 +1,500 @@
+V 3 SG IND PST PRF LGSPEC2 a g a r r a r ||| a g a r r a r a
+V.PTCP PST FEM PL f u m i a r ||| f u m i a e s
+V IND PST 3 PL PFV i l l e g a l i z a r ||| i l l e g a l i z a r o n
+V 3 SG SBJV PST IPFV LGSPEC1 c a n t a r ||| c a n t a r e
+V IND PST 3 PL PFV c a l c a r ||| c a l c a r o n
+V 1 PL SBJV PST IPFV LGSPEC2 a t a r ||| a t á r a m o s
+V IND PST 2 SG PFV LGSPEC1 e n c a d e n a r ||| e n c a d e n a s t i
+V 2 SG COND b r a n i a r ||| b r a n i a r í e s
+V 1 SG SBJV PRS b e s a r ||| b e s e
+V IND PST 2 PL IPFV LGSPEC1 c o y e r ||| c o y í a i s
+V IND PRS 3 PL p l a n c h a r ||| p l a n c h e n
+V 2 SG IND FUT e c h a r ||| e c h a r á s
+V 2 PL SBJV PST IPFV LGSPEC1 c o m b a y a r ||| c o m b a y a r e i s
+V 3 PL SBJV PRS LGSPEC1 a t r o p e l l a r ||| a t r o p e l l e n
+V 3 PL COND d u n v i a r ||| d u n v i a r í e n
+V IND PST 3 SG PFV a c o y e r ||| a c o y ó
+V IND PST 2 SG IPFV c o n o c e r ||| c o n o c í e s
+V 2 SG IMP d e x a r ||| d e x a
+V NFIN i n o r a r ||| i n o r a r
+V 1 SG IND FUT m i r a r ||| m i r a r é
+V.PTCP PST NEUT SG ḥ i s p i a r ||| ḥ i s p i a o
+V 3 SG COND LGSPEC2 p o n e r ||| p u n x e r e
+V 2 SG IND FUT a l e n d a r ||| a l e n d a r á s
+V IND PST 1 PL IPFV LGSPEC1 b e s a r ||| b e s á b e m o s
+V 3 SG SBJV PST IPFV LGSPEC1 v i a x a r ||| v i a x a r e
+V 1 PL IND FUT h u m i l d a r ||| h u m i l d a r e m o s
+V IND PST 1 PL PFV a r r a n a r ||| a r r a n e m o s
+V 3 SG IND PST PRF LGSPEC2 e s b a b a y a r ||| e s b a b a y a r a
+V 3 PL COND e c h a r ||| e c h a r í e n
+V IND PST 1 PL IPFV LGSPEC2 c a m b i a r ||| c a m b i á b a m o s
+V 2 PL COND LGSPEC2 d e r i v a r ||| d e r i v a r í a i s
+V 3 SG COND t o r t u r a r ||| t o r t u r a r í a
+V 3 PL SBJV PRS LGSPEC1 e s t a n d a r i z a r ||| e s t a n d a r i c e n
+V 1 SG COND c r e a r ||| c r e a r í a
+V 2 SG IND FUT b e s a r ||| b e s a r á s
+V IND PST 1 SG PFV m a t a r ||| m a t é
+V 3 SG IND PST PRF LGSPEC2 e s c a n c i a r ||| e s c a n c i a r a
+V.PTCP PST MASC SG a f a m i a r ||| a f a m i á u
+V 2 SG IND FUT v a c i a r ||| v a c i a r á s
+V 1 SG IND PST PRF LGSPEC1 b l i n c a r ||| b l i n c a r e
+V 3 PL IND PST PRF c o ñ o c e r ||| c o ñ o c i e r e n
+V IND PRS 1 SG e m o c i o n a r ||| e m o c i o n o
+V 2 SG IMP a f a l a g a r ||| a f a l a g a
+V IND PST 1 SG IPFV a g r u p a r ||| a g r u p a b a
+V 3 PL IND PST PRF LGSPEC2 a t a r ||| a t a r a n
+V 2 SG SBJV PST IPFV LGSPEC2 e s ñ a l a r ||| e s ñ a l a r a s
+V 2 PL IMP e n t r a r ||| e n t r á i
+V 1 PL COND LGSPEC2 a p o y a r ||| a p o y a r í a m o s
+V 1 SG SBJV PST IPFV LGSPEC1 e m o c i o n a r ||| e m o c i o n a r e
+V IND PST 2 PL PFV LGSPEC1 f e s t e x a r ||| f e s t e x a s t i s
+V 1 SG IND PST PRF LGSPEC2 v a l t a r ||| v a l t a r a
+V IND PRS 3 PL r e p o s a r ||| r e p o s e n
+V 3 PL IND PST PRF LGSPEC1 m a r c h a r ||| m a r c h a r e n
+V 2 PL SBJV PRS e l i m i n a r ||| e l i m i n é i s
+V 2 PL SBJV PST IPFV LGSPEC2 a n d o r g a r ||| a n d o r g a r a i s
+V 3 SG IND PST PRF LGSPEC1 s a n g r a r ||| s a n g r a r e
+V 1 PL COND LGSPEC2 l l i m p i a r ||| l l i m p i a r í a m o s
+V IND PST 3 SG IPFV l l a n t a r ||| l l a n t a b a
+V IND PST 1 PL IPFV LGSPEC2 v o l a r ||| v o l á b a m o s
+V IND PST 2 PL IPFV LGSPEC1 s e n t a r ||| s e n t a b e i s
+V 2 PL IND PST PRF LGSPEC1 q u e m a r ||| q u e m a r e i s
+V IND PST 2 PL IPFV LGSPEC1 n i c i a r ||| n i c i a b e i s
+V 3 PL IND PST PRF LGSPEC1 a t a r ||| a t a r e n
+V 2 SG SBJV PRS LGSPEC2 p a r a r ||| p a r a s
+V 3 PL COND e n t r u g a r ||| e n t r u g a r í e n
+ADJ SG NEUT h ú n g a r u ||| h ú n g a r o
+V IND PST 2 PL IPFV LGSPEC2 a b o t o n a r ||| a b o t o n a b a i s
+V 2 SG SBJV PST IPFV LGSPEC1 e s c l u c a r ||| e s c l u c a r e s
+V IND PRS 1 SG e n t r e n a r ||| e n t r e n o
+V IND PST 1 PL IPFV LGSPEC2 b a i l l a r ||| b a i l l á b a m o s
+V 3 SG COND s u a ñ a r ||| s u a ñ a r í a
+V.PTCP PST MASC PL a c o m p a n g a r ||| a c o m p a n g a o s
+V 2 PL SBJV PST IPFV LGSPEC2 a t r a g a n t a r ||| a t r a g a n t a r a i s
+V IND PST 2 SG PFV LGSPEC2 t o m a r ||| t o m e s t i
+V 2 PL SBJV PST IPFV LGSPEC1 s e l l a r ||| s e l l a r e i s
+V 1 PL SBJV PST IPFV LGSPEC2 e s c l u c a r ||| e s c l u c á r a m o s
+V 3 SG SBJV PST IPFV e s p a r d e r ||| e s p a r d e r í a
+V 3 PL IND FUT d i b u x a r ||| d i b u x a r á n
+V IND PRS 3 SG c o m e n z a r ||| c o m i e n z a
+V 3 PL SBJV PRS LGSPEC2 p e t r i f i c a r ||| p e t r i f i c a n
+V 1 SG IND FUT a m p a r a r ||| a m p a r a r é
+V 2 SG SBJV PST IPFV LGSPEC1 r u t i a r ||| r u t i a r e s
+V 2 SG SBJV PST IPFV LGSPEC2 e n t r e n a r ||| e n t r e n a r a s
+V IND PST 3 SG PFV r e c o y e r ||| r e c o y ó
+V 3 PL SBJV PST IPFV LGSPEC2 r e t a r ||| r e t a r a n
+V IND PST 2 PL PFV LGSPEC2 e s b a r a f u n d i a r ||| e s b a r a f u n d i e s t i s
+V IND PRS 2 SG g u e t a r ||| g u e t e s
+V.PTCP PST NEUT SG d u n v i a r ||| d u n v i a o
+V 2 SG SBJV PRS LGSPEC2 r e m o l c a r ||| r e m o l q u a s
+V IND PST 2 PL IPFV LGSPEC1 a l b o r i a r ||| a l b o r i a b e i s
+V 3 PL SBJV PST IPFV LGSPEC1 e s p e y a r ||| e s p e y a r e n
+V 1 PL COND LGSPEC2 i n t e r p r e t a r ||| i n t e r p r e t a r í a m o s
+V IND PST 2 PL PFV LGSPEC2 q u e m a r ||| q u e m e s t i s
+V IND PST 1 SG PFV p a g a r ||| p a g u é
+V IND PRS 3 PL a x u n t a r ||| a x u n t e n
+V 3 PL IND FUT p o l i n i z a r ||| p o l i n i z a r á n
+V 3 SG COND l l i m p i a r ||| l l i m p i a r í a
+V 2 PL SBJV PRS a y u d a r ||| a y u d é i s
+V 3 PL SBJV PRS LGSPEC2 o d i a r ||| o d i a n
+V 3 PL SBJV PRS LGSPEC2 a l l i s t a r ||| a l l i s t a n
+V 3 PL SBJV PST IPFV LGSPEC1 a f l a c a r ||| a f l a c a r e n
+V 1 SG IND PST PRF LGSPEC1 c h a r l a r ||| c h a r l a r e
+V IND PST 3 SG IPFV a c u t a r ||| a c u t a b a
+V 3 PL SBJV PRS LGSPEC1 c a v i l a r ||| c a v i l e n
+V 1 SG COND e n f i l a r ||| e n f i l a r í a
+V 2 SG SBJV PRS LGSPEC2 e n d o l c a r ||| e n d o l q u a s
+V 3 SG SBJV PST IPFV LGSPEC1 e s g a t u ñ a r ||| e s g a t u ñ a r e
+V IND PRS 3 SG e s c a e c e r ||| e s c a e z
+V 3 SG SBJV PST IPFV LGSPEC1 v a c i a r ||| v a c i a r e
+V 3 PL IND PST PRF LGSPEC1 e s m o r d i g a ñ a r ||| e s m o r d i g a ñ a r e n
+V IND PRS 3 SG a m o s a r ||| a m u e s a
+V 1 SG SBJV PST IPFV LGSPEC1 c o l o c a r ||| c o l o c a r e
+V IND PST 2 PL PFV LGSPEC1 p e ñ a r ||| p e ñ a s t i s
+V 2 SG SBJV PRS LGSPEC2 a c e p t a r ||| a c e p t a s
+V 2 PL IND PST PRF c o m e r ||| c o m i e r e i s
+V 1 PL IND PST PRF LGSPEC1 a i d a r ||| a i d á r e m o s
+V 3 PL IND PST PRF LGSPEC1 a t r a p a r ||| a t r a p a r e n
+V 1 SG SBJV PRS f a c e r ||| f a g a f a i g a
+V 2 PL SBJV PST IPFV LGSPEC2 d i x e b r a r ||| d i x e b r a r a i s
+V 3 PL IND PST PRF LGSPEC1 d e s a r r o l l a r ||| d e s a r r o l l a r e n
+V 2 SG SBJV PST IPFV LGSPEC1 e s t u d i a r ||| e s t u d i a r e s
+V 2 PL COND LGSPEC2 e s t r a ñ a r ||| e s t r a ñ a r í a i s
+V IND PST 2 SG PFV LGSPEC1 o d i a r ||| o d i a s t i
+V 2 PL COND LGSPEC1 b a u t i z a r ||| b a u t i z a r í e i s
+V IND PST 3 PL IPFV v a l t a r ||| v a l t a b e n
+V 3 PL SBJV PRS LGSPEC2 m i r a r ||| m i r a n
+V 1 SG SBJV PRS a m e y o r a r ||| a m e y o r e
+V 3 PL IND FUT e s p a r d e r ||| e s p a r d á i s
+V 1 SG COND c o m b a y a r ||| c o m b a y a r í a
+V IND PST 1 SG PFV a l l i x e r a r ||| a l l i x e r é
+V.PTCP PST MASC PL a l l i x e r a r ||| a l l i x e r a o s
+V 2 SG IND FUT l l o r a r ||| l l o r a r á s
+V 1 PL IND FUT e s c a n c i a r ||| e s c a n c i a r e m o s
+V 2 SG IMP d e s e a r ||| d e s e a
+V.CVB PRS e x i s t i r ||| e x i s t i e n d o
+V 2 SG IMP x i m i r ||| x i m i
+V 2 SG IMP i n o r a r ||| i n o r a
+V 3 SG SBJV PST IPFV r e s p o n d e r ||| r e s p o n d e r í a
+V IND PST 1 SG IPFV LGSPEC2 t r a e r ||| t r a í a
+V 1 SG COND LGSPEC1 f a e r ||| f a d r í a
+V 1 PL SBJV PST IPFV LGSPEC2 n o m b r a r ||| n o m b r á r a m o s
+V 1 SG COND a r r a n a r ||| a r r a n a r í a
+V 3 SG COND a p e n z a r ||| a p e n z a r í a
+V 2 SG IND FUT c r i s t i a n i z a r ||| c r i s t i a n i z a r á s
+V 3 SG SBJV PST IPFV LGSPEC2 c o l o c a r ||| c o l o c a r a
+V 1 PL SBJV PRS f o r m a r ||| f o r m e m o s
+V 2 PL IND FUT x i b l a r ||| x i b l a r é i s
+V 3 PL IND FUT d o b l a r ||| d o b l a r á n
+V IND PST 1 SG IPFV a l e n d a r ||| a l e n d a b a
+V.PTCP PST NEUT SG c o r t a r ||| c o r t a o
+V 3 PL SBJV PRS LGSPEC1 ñ a d a r ||| ñ a d e n
+V 2 SG IND PST PRF LGSPEC1 b a i l a r ||| b a i l a r e s
+V IND PST 2 PL PFV LGSPEC1 o r d e n a r ||| o r d e n a s t i s
+V IND PST 2 PL PFV LGSPEC1 a r r a n a r ||| a r r a n a s t i s
+V 2 PL IMP e m o c i o n a r ||| e m o c i o n á i
+V 2 PL IND PST PRF LGSPEC2 d e x a r ||| d e x a r a i s
+V 3 SG IND PST PRF LGSPEC2 e s ñ a l a r ||| e s ñ a l a r a
+V IND PRS 3 PL e s b a r a f u n d i a r ||| e s b a r a f u n d i e n
+V 1 PL SBJV PST IPFV LGSPEC1 a f e u t a r ||| a f e u t á r e m o s
+V IND PRS 1 SG d e s p e s l l a r ||| d e s p i e s l l o
+V 2 PL IND FUT m e y o r a r ||| m e y o r a r é i s
+V 1 PL IND FUT p a r a r ||| p a r a r e m o s
+V.CVB PRS a c o m p a ñ a r ||| a c o m p a ñ a n d o
+V IND PST 1 SG PFV a f a l a g a r ||| a f a l a g u é
+V 3 PL SBJV PST IPFV LGSPEC1 c a v i l a r ||| c a v i l a r e n
+V 2 PL IND FUT c a v i l g a r ||| c a v i l g a r é i s
+V 1 SG SBJV PST IPFV LGSPEC2 d e s t a c a r ||| d e s t a c a r a
+V IND PST 2 SG PFV LGSPEC1 v e r a n i a r ||| v e r a n i a s t i
+V 3 PL SBJV PST IPFV LGSPEC1 s a c r i f i c a r ||| s a c r i f i c a r e n
+V 2 PL IND PST PRF LGSPEC1 ñ i c i a r ||| ñ i c i a r e i s
+V 3 SG COND e m o c i o n a r ||| e m o c i o n a r í a
+V 1 SG IND FUT e s p a ñ a r ||| e s p a ñ a r é
+V IND PRS 1 SG a r d e r ||| a r d o
+V.PTCP PST NEUT SG s o n r i r ||| s o n r í o
+V.PTCP PST FEM SG a b r u x a r ||| a b r u x a d a
+V IND PST 3 SG IPFV n a d a r ||| n a d a b a
+V 2 PL COND LGSPEC1 d i n a m i t a r ||| d i n a m i t a r í e i s
+V IND PST 3 PL PFV a m a s u ñ a r ||| a m a s u ñ a r o n
+V 1 SG SBJV PST IPFV LGSPEC2 i n f l a r ||| i n f l a r a
+V IND PRS 1 SG e n c a d e n a r ||| e n c a d e n o
+V.PTCP PST MASC PL p a g a r ||| p a g a o s
+V IND PRS 2 PL a l l a r g a r ||| a l l a r g á i s
+V 2 SG IND PST PRF LGSPEC1 s e n t a r ||| s e n t a r e s
+V 2 PL IMP d e s a r r o l l a r ||| d e s a r r o l l á i
+V 1 PL SBJV PST IPFV LGSPEC1 c e g a r ||| c e g á r e m o s
+V 1 PL IND PST PRF LGSPEC2 d e s a v e r a r ||| d e s a v e r á r a m o s
+V NFIN e m o c i o n a r ||| e m o c i o n a r
+V 3 PL IND PST PRF LGSPEC2 n o m b r a r ||| n o m b r a r a n
+V 3 PL SBJV PRS LGSPEC2 d e s e a r ||| d e s e a n
+V IND PRS 3 PL f a l a r ||| f a l e n
+V 3 PL COND a c t i v a r ||| a c t i v a r í e n
+V 3 PL SBJV PST IPFV LGSPEC2 a f a m i a r ||| a f a m i a r a n
+V 2 SG IMP d e s e n d o l c a r ||| d e s e n d o l c a
+V 3 SG SBJV PRS m a r c h a r ||| m a r c h e
+V NFIN LGSPEC1 t r a e r ||| t r a y e r
+V IND PRS 2 SG x i r i n g a r ||| x i r i n g u e s
+V.PTCP PST NEUT SG b a i l l a r ||| b a i l l a o
+V 3 PL SBJV PRS LGSPEC2 e n t r u g a r ||| e n t r u g u a n
+V 1 PL SBJV PST IPFV LGSPEC2 e s c a n c i a r ||| e s c a n c i á r a m o s
+V IND PRS 3 SG a f o r r a r ||| a f o r r a
+V IND PST 2 SG PFV LGSPEC1 t r u ñ a r ||| t r u ñ a s t i
+V 2 PL SBJV PRS s e m a r ||| s e m é i s
+V 1 SG COND d i x e b r a r ||| d i x e b r a r í a
+V 2 PL IND PST PRF LGSPEC1 r e g u l a r ||| r e g u l a r e i s
+V 3 SG SBJV PST IPFV LGSPEC1 d e s a f i a r ||| d e s a f i a r e
+V IND PST 1 PL PFV r e s c a t a r ||| r e s c a t e m o s
+V 1 SG SBJV PRS a n i c i a r ||| a n i c i e
+V 2 PL SBJV PRS r e m a r ||| r e m é i s
+V IND PST 3 PL PFV n o m a r ||| n o m a r o n
+V 2 SG SBJV PRS LGSPEC2 b a i l a r ||| b a i l a s
+V 3 SG SBJV PRS c o l o c a r ||| c o l o q u e
+V IND PST 1 PL IPFV LGSPEC1 c l o n a r ||| c l o n á b e m o s
+V 2 PL IND PST PRF LGSPEC1 t r e s f o r m a r ||| t r e s f o r m a r e i s
+V IND PRS 2 SG e s f r e g a r ||| e s f r e g u e s
+V 2 PL IND PST PRF LGSPEC1 m o y a r ||| m o y a r e i s
+V 1 PL COND LGSPEC1 z a r r a r ||| z a r r a r í e m o s
+V 2 SG IND FUT e s c a e c e r ||| e s c a e z a
+V 3 PL IND PST PRF LGSPEC2 f a e r ||| f i c i e r e n
+V 1 PL IND PST PRF LGSPEC1 b a u t i z a r ||| b a u t i z á r e m o s
+V 2 SG IND PST PRF LGSPEC2 m e d r a r ||| m e d r a r a s
+V.PTCP PST MASC PL e s b a r a f u n d i a r ||| e s b a r a f u n d i a o s
+V 2 SG IND PST PRF LGSPEC2 a f a l a g a r ||| a f a l a g a r a s
+V 2 PL IND FUT e s p a ñ a r ||| e s p a ñ a r é i s
+V IND PST 2 SG PFV LGSPEC2 r e p o s a r ||| r e p o s e s t i
+V IND PST 2 PL IPFV LGSPEC2 x i n t a r ||| x i n t a b a i s
+V 2 SG IND PST PRF LGSPEC2 b l i n c a r ||| b l i n c a r a s
+V IND PST 1 PL IPFV LGSPEC2 s o t e r r a r ||| s o t e r r á b a m o s
+V 2 PL IND FUT l l a d r a r ||| l l a d r a r é i s
+V 2 SG IND PST PRF LGSPEC2 d u n v i a r ||| d u n v i a r a s
+V 3 SG IND PST PRF LGSPEC1 c r e a r ||| c r e a r e
+V.PTCP PST MASC PL a m e y o r a r ||| a m e y o r a o s
+V IND PRS 2 SG u s a r ||| u s e s
+V IND PRS 2 SG x e l a r ||| x e l e s
+V 2 PL IND PST PRF LGSPEC2 e s c o m e n z a r ||| e s c o m e n z a r a i s
+V IND PST 2 PL IPFV LGSPEC1 e s b a r a f u n d i a r ||| e s b a r a f u n d i a b e i s
+V IND PST 2 SG IPFV d a ñ a r ||| d a ñ a b e s
+V 2 PL IND PST PRF LGSPEC2 c a l c a r ||| c a l c a r a i s
+V 2 SG IND FUT a s a r ||| a s a r á s
+V 2 SG SBJV PRS LGSPEC2 x a n t a r ||| x a n t a s
+V.PTCP PST MASC PL c o n s i d e r a r ||| c o n s i d e r a o s
+V.PTCP PST FEM PL n o m b r a r ||| n o m b r a e s
+V 2 SG COND e n s u g a r ||| e n s u g a r í e s
+V 3 SG SBJV PST IPFV LGSPEC2 c o n x e l a r ||| c o n x e l a r a
+V.PTCP PST NEUT SG p o d a r ||| p o d a o
+V 3 SG SBJV PRS a n c l a r ||| a n c l e
+V 2 PL SBJV PRS c a t a r ||| c a t é i s
+V IND PST 2 PL IPFV LGSPEC2 e n d o l c a r ||| e n d o l c a b a i s
+V 3 PL IND PST PRF LGSPEC2 e s t o r n u d a r ||| e s t o r n u d a r a n
+V.PTCP PST MASC PL e s i x i r ||| e s i x í o s
+V 2 SG SBJV PRS LGSPEC1 f e r r a r ||| f i e r r e s
+V 1 PL SBJV PRS e n t r e n a r ||| e n t r e n e m o s
+V IND PST 2 SG PFV LGSPEC2 d i v o r c i a r ||| d i v o r c i e s t i
+V 3 SG IND PST PRF LGSPEC2 c o n n o t a r ||| c o n n o t a r a
+V 2 PL IND PST PRF LGSPEC2 b u s c a r ||| b u s c a r a i s
+V 1 SG SBJV PRS d i n a m i t a r ||| d i n a m i t e
+V 2 PL SBJV PRS t o r n a r ||| t o r n é i s
+V IND PST 2 PL IPFV a r d e r ||| a r d í e i s
+V 3 SG SBJV PRS i n s p i r a r ||| i n s p i r e
+V IND PST 3 SG PFV l l e n d a r ||| l l e n d ó
+V 2 PL SBJV PST IPFV LGSPEC1 l l e g a l i z a r ||| l l e g a l i z a r e i s
+V IND PST 3 SG PFV a b l u c a r ||| a b l u c ó
+V 1 PL SBJV PRS g u a r n i r ||| g u a r n i r e m o s
+V 2 PL COND LGSPEC2 a n i c i a r ||| a n i c i a r í a i s
+V 1 PL IND FUT e x i l i a r ||| e x i l i a r e m o s
+V IND PST 1 SG IPFV s a n g r a r ||| s a n g r a b a
+V 1 SG IND PST PRF LGSPEC2 a b o t o n a r ||| a b o t o n a r a
+V 2 PL IMP e x i s t i r ||| e x i s t í i
+V 1 SG IND PST PRF LGSPEC1 e s c l u c a r ||| e s c l u c a r e
+V IND PRS 2 PL e s p r e s a r ||| e s p r e s á i s
+V 3 SG SBJV PST IPFV LGSPEC1 c o n x e l a r ||| c o n x e l a r e
+V 1 SG IND FUT e s g a t u ñ a r ||| e s g a t u ñ a r é
+V IND PRS 2 SG e x i l i a r ||| e x i l i e s
+V 2 PL IND FUT LGSPEC1 d i r ||| v a i g a m o s
+V 1 PL COND LGSPEC2 c o y e r ||| c o y e r í e m o s
+V.PTCP PST NEUT SG r o b a r ||| r o b a o
+V IND PST 1 SG IPFV e s p i r r i a r ||| e s p i r r i a b a
+V IND PST 3 PL PFV d e r i v a r ||| d e r i v a r o n
+V IND PST 3 PL IPFV a f a l a g a r ||| a f a l a g a b e n
+V.PTCP PST MASC PL r o b a r ||| r o b a o s
+V.PTCP PST FEM SG e s m o r d i g a ñ a r ||| e s m o r d i g a ñ a d a
+V 3 PL IND PST PRF LGSPEC2 v e r a n i a r ||| v e r a n i a r a n
+V 1 PL SBJV PST IPFV LGSPEC2 ñ a m o r a r ||| ñ a m o r á r a m o s
+V 2 SG IND PST PRF LGSPEC1 d e r i v a r ||| d e r i v a r e s
+V.PTCP PST FEM SG t r u ñ a r ||| t r u ñ a d a
+V 2 PL COND LGSPEC1 z a r r a r ||| z a r r a r í e i s
+V 3 SG IND PST PRF LGSPEC2 b a i l l a r ||| b a i l l a r a
+V 3 PL IND PST PRF LGSPEC2 l l e g a l i z a r ||| l l e g a l i z a r a n
+V 2 PL IND PST PRF LGSPEC2 a y u n a r ||| a y u n a r a i s
+V 2 PL COND LGSPEC1 s a l t a r ||| s a l t a r í e i s
+V 3 PL IND PST PRF LGSPEC1 b r a n i a r ||| b r a n i a r e n
+V 2 PL IND PST PRF LGSPEC2 n a m o r a r ||| n a m o r a r a i s
+V 2 PL IMP a c a b a r ||| a c a b á i
+V 1 PL SBJV PST IPFV LGSPEC2 a f a m i a r ||| a f a m i á r a m o s
+V IND PST 1 PL IPFV LGSPEC2 r e g u l a r ||| r e g u l á b a m o s
+V 1 PL COND LGSPEC2 m i r a r ||| m i r a r í a m o s
+V 3 PL SBJV PST IPFV LGSPEC1 v a c i a r ||| v a c i a r e n
+V IND PRS 2 PL c i r c u l a r ||| c i r c u l á i s
+V IND PST 3 PL IPFV r e t a r ||| r e t a b e n
+V IND PRS 1 SG a b l u c a r ||| a b l u c o
+V 2 PL IND FUT a c t i v a r ||| a c t i v a r é i s
+V IND PST 3 SG PFV a m e d r a n a r ||| a m e d r a n ó
+V.PTCP PST FEM SG d e b u r a r ||| d e b u r a d a
+V 3 SG IND PST PRF LGSPEC1 c o n v i d a r ||| c o n v i d a r e
+V.PTCP PST MASC PL e s f r e g a r ||| e s f r e g a o s
+V IND PST 2 SG PFV LGSPEC1 p o n e r ||| p u n x e s t i
+V 3 SG COND LGSPEC4 d i r ||| f u e r e
+V 1 PL COND LGSPEC1 f r o t a r ||| f r o t a r í e m o s
+V 2 SG IMP e n s u g a r ||| e n s u g a
+V 3 PL IND FUT s u d a r ||| s u d a r á n
+V 2 SG COND a b l u c a r ||| a b l u c a r í e s
+V 2 PL IND PST PRF LGSPEC2 s o ñ a r ||| s o ñ a r a i s
+V 3 PL IND PST PRF LGSPEC1 s a c r i f i c a r ||| s a c r i f i c a r e n
+V.PTCP PST FEM SG e v i t a r ||| e v i t a d a
+V.CVB PRS m e d r a r ||| m e d r a n d o
+V 1 SG IND FUT d u d a r ||| d u d a r é
+V 1 SG IND PST PRF LGSPEC1 a n i c i a r ||| a n i c i a r e
+V 1 PL COND LGSPEC2 x u b i l a r ||| x u b i l a r í a m o s
+V 1 PL IND PST PRF LGSPEC2 c o m b a y a r ||| c o m b a y á r a m o s
+V 2 PL IND PST PRF LGSPEC1 a l l o ñ a r ||| a l l o ñ a r e i s
+V 2 PL SBJV PST IPFV LGSPEC1 i n t e r p r e t a r ||| i n t e r p r e t a r e i s
+V NFIN d u d a r ||| d u d a r
+V 3 SG SBJV PST IPFV LGSPEC2 r e c o r d a r ||| r e c o r d a r a
+V 1 SG SBJV PST IPFV LGSPEC1 n i c i a r ||| n i c i a r e
+V NFIN e n d o l c a r ||| e n d o l c a r
+V 2 SG SBJV PRS LGSPEC1 s a c r i f i c a r ||| s a c r i f i q u e s
+V 2 SG COND s i g n i f i c a r ||| s i g n i f i c a r í e s
+V 1 SG COND e s c o y e r ||| e s c o y e r í a
+V 3 SG SBJV PRS e s c o y e r ||| e s c u e y a
+V.PTCP PST MASC PL n a d a r ||| n a d a o s
+V 3 SG SBJV PST IPFV LGSPEC1 f u m a r ||| f u m a r e
+V 2 PL COND LGSPEC1 f a l a r ||| f a l a r í e i s
+V IND PST 3 SG IPFV b i l o r d i a r ||| b i l o r d i a b a
+V.PTCP PST FEM SG a x u d a r ||| a x u d a d a
+V 2 SG IND PST PRF LGSPEC1 a l b o r i a r ||| a l b o r i a r e s
+V 1 SG IND FUT a c a b a r ||| a c a b a r é
+V IND PST 3 PL IPFV o r i n a r ||| o r i n a b e n
+V 3 SG IND PST PRF LGSPEC2 p e t r i f i c a r ||| p e t r i f i c a r a
+V IND PRS 3 PL d e c i d i r ||| d e c i d e n
+V.PTCP PST NEUT SG c a n t a r ||| c a n t a o
+V 1 SG COND a g a r r a r ||| a g a r r a r í a
+V 1 PL SBJV PST IPFV LGSPEC1 s e c a r ||| s e c á r e m o s
+V IND PRS 1 SG v e n d e r ||| v e n d o
+V.PTCP PST FEM PL i n s u l t a r ||| i n s u l t a e s
+V 1 PL COND LGSPEC2 x e l a r ||| x e l a r í a m o s
+V 2 PL SBJV PST IPFV LGSPEC2 f r o t a r ||| f r o t a r a i s
+V 1 PL COND LGSPEC2 a l i m e n t a r ||| a l i m e n t a r í a m o s
+V IND PST 2 SG PFV LGSPEC2 m i r a r ||| m i r e s t i
+V 3 SG IND PST PRF LGSPEC2 m u d a r ||| m u d a r a
+V IND PST 3 SG IPFV p o r t a r ||| p o r t a b a
+V 1 SG SBJV PST IPFV LGSPEC2 e s ñ a l a r ||| e s ñ a l a r a
+V IND PST 2 PL IPFV LGSPEC1 a t a r ||| a t a b e i s
+V 2 PL COND LGSPEC2 g o l i q u i a r ||| g o l i q u i a r í a i s
+V 2 SG SBJV PST IPFV LGSPEC1 e s ñ a l a r ||| e s ñ a l a r e s
+V 1 SG IND FUT ñ a m o r a r ||| ñ a m o r a r é
+V 1 PL IND PST PRF LGSPEC1 c o n x u g a r ||| c o n x u g á r e m o s
+V IND PST 2 PL IPFV LGSPEC1 e x i s t i r ||| e x i s t í e i s
+V IND PST 2 PL IPFV LGSPEC1 a t r a g a n t a r ||| a t r a g a n t a b e i s
+V 2 PL COND LGSPEC2 s i g n i f i c a r ||| s i g n i f i c a r í a i s
+V 3 PL SBJV PRS LGSPEC2 a f i l a r ||| a f i l a n
+V 2 PL COND LGSPEC1 a g r u p a r ||| a g r u p a r í e i s
+V 3 PL SBJV PST IPFV x i m i r ||| x i m i r í e n
+V IND PST 3 PL PFV a c a b a r ||| a c a b a r o n
+V 2 PL SBJV PRS i l l e g a l i z a r ||| i l l e g a l i c é i s
+V 3 SG COND LGSPEC2 s o n r i r ||| s o n r i e r a
+V IND PST 2 SG PFV LGSPEC1 r e c o r d a r ||| r e c o r d a s t i
+V.PTCP PST MASC PL e m o c i o n a r ||| e m o c i o n a o s
+V IND PST 1 SG IPFV m a n c a r ||| m a n c a b a
+V 2 SG IND FUT p e s l l a r ||| p e s l l a r á s
+V 2 SG SBJV PST IPFV LGSPEC2 i m i t a r ||| i m i t a r a s
+V.PTCP PST MASC PL s e c a r ||| s e c a o s
+V 2 SG SBJV PRS LGSPEC2 c r e a r ||| c r e a s
+V 3 SG COND e s p l o r a r ||| e s p l o r a r í a
+V 3 SG SBJV PST IPFV LGSPEC1 a l e n d a r ||| a l e n d a r e
+V 2 SG SBJV PRS LGSPEC2 a f i l a r ||| a f i l a s
+V IND PST 2 SG PFV LGSPEC1 p a u t a r ||| p a u t a s t i
+V 2 SG SBJV PRS LGSPEC2 c l a v a r ||| c l a v a s
+V 2 SG IND PST PRF LGSPEC2 c a v i l g a r ||| c a v i l g a r a s
+V.PTCP PST MASC PL a l z a r ||| a l z a o s
+V IND PST 1 PL IPFV LGSPEC2 a g u a n t a r ||| a g u a n t á b a m o s
+V IND PST 3 SG PFV n o m a r ||| n o m ó
+V 2 PL IND PST PRF LGSPEC1 e n c a x a r ||| e n c a x a r e i s
+V IND PST 1 PL PFV a l l o ñ a r ||| a l l o ñ e m o s
+V 1 PL SBJV PST IPFV LGSPEC1 e s t a z a r ||| e s t a z á r e m o s
+V 1 SG SBJV PST IPFV LGSPEC1 e c h a r ||| e c h a r e
+V 1 PL IND PST PRF LGSPEC2 v e r a n i a r ||| v e r a n i á r a m o s
+V NFIN d e s e n d o l c a r ||| d e s e n d o l c a r
+V 2 PL SBJV PST IPFV LGSPEC1 r e m o l c a r ||| r e m o l c a r e i s
+V.PTCP PST MASC PL p e s c a r ||| p e s c a o s
+V IND PST 1 PL IPFV LGSPEC1 f e r r a r ||| f e r r á b e m o s
+V IND PST 3 PL PFV v a l t a r ||| v a l t a r o n
+V 1 PL SBJV PST IPFV LGSPEC1 b a t a l l a r ||| b a t a l l á r e m o s
+V 1 SG SBJV PRS c o m i c a r ||| c o m i q u e
+V 2 SG SBJV PST IPFV LGSPEC1 a u d a r ||| a u d a r e s
+V IND PST 2 PL IPFV LGSPEC2 a l z a r ||| a l z a b a i s
+V 1 SG IND PST PRF LGSPEC2 a l z a r ||| a l z a r a
+V IND PRS 3 PL a r r a n a r ||| a r r a n e n
+V IND PST 3 PL IPFV t r e s p o r t a r ||| t r e s p o r t a b e n
+ADJ SG NEUT b r e t ó n ||| b r e t o n o
+V 1 SG SBJV PST IPFV LGSPEC1 e s p o x i g a r ||| e s p o x i g a r e
+V 2 SG SBJV PST IPFV LGSPEC1 f o r z a r ||| f o r z a r e s
+V 2 PL COND LGSPEC2 d o b l a r ||| d o b l a r í a i s
+V IND PST 2 PL PFV LGSPEC2 b l i n c a r ||| b l i n q u e s t i s
+V 3 PL IND PST PRF LGSPEC2 x a n t a r ||| x a n t a r a n
+V 1 SG IND PST PRF LGSPEC1 e s t o r n u d a r ||| e s t o r n u d a r e
+V 1 SG SBJV PRS e m o c i o n a r ||| e m o c i o n e
+V 3 PL SBJV PRS LGSPEC2 r e b a x a r ||| r e b a x a n
+V 2 SG SBJV PRS LGSPEC1 a l l i x e r a r ||| a l l i x e r e s
+V IND PST 2 PL PFV LGSPEC1 c r e a r ||| c r e a s t i s
+V 2 PL COND LGSPEC1 a l g a m a r ||| a l g a m a r í e i s
+V.PTCP PST FEM PL g u e t a r ||| g u e t a e s
+V 1 PL SBJV PST IPFV LGSPEC1 r e b a x a r ||| r e b a x á r e m o s
+V IND PRS 2 SG e n s u g a r ||| e n s u g u e s
+V.PTCP PST MASC PL a b o t o n a r ||| a b o t o n a o s
+V 1 PL COND LGSPEC2 l l e n d a r ||| l l e n d a r í a m o s
+V IND PST 2 PL IPFV LGSPEC1 d u n v i a r ||| d u n v i a b e i s
+V 3 SG IND PST PRF LGSPEC2 c o m p a r a r ||| c o m p a r a r a
+V.PTCP PST MASC SG a y u n a r ||| a y u n á u
+V IND PST 1 PL IPFV LGSPEC1 c o p i a r ||| c o p i á b e m o s
+V 3 PL COND b r a n i a r ||| b r a n i a r í e n
+V IND PRS 3 SG e s c o m e n z a r ||| e s c o m e n z a
+V 1 PL SBJV PST IPFV LGSPEC2 r e g u l a r ||| r e g u l á r a m o s
+V 3 PL SBJV PRS LGSPEC2 p u x a r ||| p u x a n
+V 2 SG SBJV PST IPFV LGSPEC2 f e s t e x a r ||| f e s t e x a r a s
+V 1 PL SBJV PST IPFV LGSPEC1 c r e a r ||| c r e á r e m o s
+V IND PST 1 PL IPFV LGSPEC4 f a e r ||| f a í e m o s
+V 2 SG SBJV PST IPFV LGSPEC1 r e m e d i a r ||| r e m e d i a r e s
+V 3 SG IND FUT e m p r i m a r ||| e m p r i m a r á
+V IND PST 2 PL PFV LGSPEC2 a l l u g a r ||| a l l u g u e s t i s
+V IND PST 2 PL PFV LGSPEC2 c a t a r ||| c a t e s t i s
+V.PTCP PST FEM SG e m p e o r a r ||| e m p e o r a d a
+V IND PST 2 SG PFV LGSPEC1 p o d e r ||| p u d i s t i
+V IND PST 3 SG IPFV d e s a f i a r ||| d e s a f i a b a
+V 3 PL SBJV PST IPFV LGSPEC2 e n s u g a r ||| e n s u g a r a n
+V.PTCP PST MASC SG r e m o l c a r ||| r e m o l c á u
+V IND PST 1 PL IPFV LGSPEC1 p a r i r ||| p a r í e m o s
+V 2 SG COND b e s a r ||| b e s a r í e s
+V 1 PL SBJV PRS ḥ i s p i a r ||| ḥ i s p i e m o s
+V IND PST 2 PL IPFV LGSPEC1 n u m b e r a r ||| n u m b e r a b e i s
+V IND PST 2 SG IPFV s e n t a r ||| s e n t a b e s
+V IND PST 1 SG IPFV e s a m i n a r ||| e s a m i n a b a
+V 3 PL COND c o m p r a r ||| c o m p r a r í e n
+V.PTCP PST MASC SG a s o l e y a r ||| a s o l e y á u
+V IND PST 1 PL PFV a n c l a r ||| a n c l e m o s
+V 2 PL IND PST PRF LGSPEC2 e s p e y a r ||| e s p e y a r a i s
+V.CVB PRS a f a l a g a r ||| a f a l a g a n d o
+V 1 PL IND FUT c o p i a r ||| c o p i a r e m o s
+V 3 SG SBJV PRS x u b i l a r ||| x u b i l e
+V 2 SG IND PST PRF LGSPEC2 f a c e r ||| f i c i e r e s
+V 3 SG SBJV PST IPFV LGSPEC2 e s c a p a r ||| e s c a p a r a
+V IND PRS 2 SG d i b u x a r ||| d i b u x e s
+V 3 PL SBJV PST IPFV LGSPEC1 c h a r l a r ||| c h a r l a r e n
+V 1 PL SBJV PRS a n d o r g a r ||| a n d o r g u e m o s
+V IND PST 1 SG PFV e x i s t i r ||| e x i s t í
+V 1 PL COND LGSPEC2 s e l l a r ||| s e l l a r í a m o s
+V 1 SG IND FUT f u m i a r ||| f u m i a r é
+V 1 SG COND f a l a r ||| f a l a r í a
+V 1 PL IND PST PRF LGSPEC1 e s c u c h a r ||| e s c u c h á r e m o s
+V 2 PL IMP a f a l a g a r ||| a f a l a g á i
+V 2 SG IND PST PRF LGSPEC2 p r e ñ a r ||| p r e ñ a r a s
+V IND PST 3 SG IPFV a f i l a r ||| a f i l a b a
+V 2 PL SBJV PST IPFV LGSPEC1 i n s u l t a r ||| i n s u l t a r e i s
+V 2 PL COND LGSPEC2 c o n x e l a r ||| c o n x e l a r í a i s
+V 3 SG IND PST PRF LGSPEC2 f a e r ||| f i c i e r e
+V 2 PL COND LGSPEC2 b l i n c a r ||| b l i n c a r í a i s
+V IND PRS 1 SG f e s t e x a r ||| f e s t e x o
+V 3 PL SBJV PST IPFV LGSPEC1 f a e r ||| f i c i e r a n
+ADJ SG MASC o c c i t a n u ||| o c c i t a n u
+V 1 PL IND PST PRF LGSPEC1 m a x i n a r ||| m a x i n á r e m o s
+V 2 PL IND PST PRF LGSPEC2 l l u c h a r ||| l l u c h a r a i s
+V 3 PL SBJV PST IPFV LGSPEC2 a c o l l e c h a r ||| a c o l l e c h a r a n
+V 3 SG IND PST PRF LGSPEC1 e s c o y e r ||| e s c o y e r a
+V IND PST 3 PL IPFV a r r i c a r ||| a r r i c a b e n
+V 1 SG IND FUT d i n a m i t a r ||| d i n a m i t a r é
+V 3 PL SBJV PRS LGSPEC2 d u r a r ||| d u r a n
+V 1 PL SBJV PST IPFV LGSPEC2 a c e u t a r ||| a c e u t á r a m o s
+V 3 SG IND FUT a t a r ||| a t a r á
+V IND PRS 1 SG a b o t o n a r ||| a b o t o n o
+V 3 PL IND PST PRF LGSPEC2 e n c a d e n a r ||| e n c a d e n a r a n
+V 2 PL COND LGSPEC2 p a r i r ||| p a r i e r a i s
+V IND PST 1 PL PFV LGSPEC3 f a c e r ||| f i x i m o s
+V.PTCP PST FEM PL a s e d i a r ||| a s e d i a e s
+V 1 PL IND PST PRF LGSPEC1 r e s f r e g a r ||| r e s f r e g á r e m o s
+V 3 PL IND FUT r o b a r ||| r o b a r á n
+V 3 PL SBJV PST IPFV LGSPEC1 l l o r a r ||| l l o r a r e n
+V IND PST 2 PL PFV LGSPEC2 t r e s p o r t a r ||| t r e s p o r t e s t i s
+V 1 PL SBJV PRS a c e p t a r ||| a c e p t e m o s
+V 3 SG IND PST PRF LGSPEC1 d u l d a r ||| d u l d a r e
+V IND PST 2 SG PFV LGSPEC2 a m e y o r a r ||| a m e y o r e s t i
+V IND PST 3 SG IPFV i l l e g a l i z a r ||| i l l e g a l i z a b a
+V NFIN f u m a r ||| f u m a r
+V 3 SG SBJV PST IPFV LGSPEC2 e s c a n c i a r ||| e s c a n c i a r a
+V.PTCP PST FEM SG e n d o l c a r ||| e n d o l c a d a
+V.PTCP PST FEM PL e n d o l c a r ||| e n d o l c a e s
+V IND PST 2 SG PFV LGSPEC2 a f e i t a r ||| a f e i t e s t i
+V IND PST 2 SG PFV LGSPEC2 a m a l a r ||| a m a l e s t i
+V 2 PL SBJV PRS f u m a r ||| f u m é i s
+V IND PRS 3 PL t r e s p o r t a r ||| t r e s p o r t e n
+V 1 PL COND LGSPEC1 t i r a r ||| t i r a r í e m o s
+V 1 PL SBJV PST IPFV LGSPEC1 a b o t o n a r ||| a b o t o n á r e m o s
+V 1 PL IND PST PRF c o m e r ||| c o m i é r e m o s
