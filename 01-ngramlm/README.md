@@ -26,3 +26,7 @@ You can perform grid search to find the best interpolation coefficients, an exam
 You can also print out the probabilities of each word:
 
     python ngram_lm.py --print_probs ../en-de/train.en-de.low.en ../en-de/valid.en-de.low.en > result-probs.txt
+
+You can also visualize the probabilities:
+
+    python visualize_probs.py < result-probs.txt > result-probs.html

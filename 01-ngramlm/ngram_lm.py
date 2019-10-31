@@ -26,6 +26,9 @@ if args.skip_unk:
   BI_ALPHA = 1.0 - UNI_ALPHA
   UNK_ALPHA = 0.0
 else:
+  assert(UNK_ALPHA >= 0 and UNK_ALPHA <= 1)
+  assert(UNI_ALPHA >= 0 and UNI_ALPHA <= 1)
+  assert(UNK_ALPHA + UNI_ALPHA <= 1)
   BI_ALPHA = 1.0 - UNK_ALPHA - UNI_ALPHA
 
 # Read in the training data
@@ -41,6 +44,11 @@ with open(args.train_file, "r") as f:
       for i in range(N):
         train_ctxts[tuple(ctxt[i:])] += 1
         train_counts[tuple(ngram[i:])] += 1
+
+for k, v in train_counts.items():
+  if k[0] == 'pittsburgh':
+    print(k, v)
+sys.exit(0)
 
 # Calculate on test
 alpha = [UNK_ALPHA, UNI_ALPHA, BI_ALPHA]
