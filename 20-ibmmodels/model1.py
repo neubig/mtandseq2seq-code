@@ -5,7 +5,7 @@ from collections import defaultdict
 
 NUM_ITERS = 20;
 TERMINATE = 1/1000;
-CUTOFF = 1e-7;
+CUTOFF = 1e-5;
 
 if len(sys.argv) != 3:
   print("Usage: model1.pl FFILE EFILE\n")
