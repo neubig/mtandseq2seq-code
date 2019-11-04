@@ -1,0 +1,6 @@
+0 1 yo yo
+1 2 comi comi
+2 3 un un
+3 4 melocotón melocotón
+4 5 </s> </s>
+5

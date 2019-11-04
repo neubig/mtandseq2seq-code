@@ -1,4 +1,7 @@
+#!/bin/bash
+set -e
 
+# Simple example FST
 fstcompile --keep_isymbols --keep_osymbols --isymbols=example.isym --osymbols=example.isym example.txt example.fst
 fstdraw example.fst example.dot
 dot -Tps example.dot > example.ps
@@ -6,6 +9,7 @@ ps2pdf example.ps
 pdfcrop example.pdf
 mv example-crop.pdf example.pdf
 
+# Create a bigram language model from the corpus
 python bigram.py < corpuse.txt > bigram.txt
 python symbols.py 2 < bigram.txt > bigram.isym
 
@@ -16,6 +20,7 @@ ps2pdf bigram.ps
 pdfcrop bigram.pdf
 mv bigram-crop.pdf bigram.pdf
 
+# Create a one-to-one translation model
 python onetoone.py corpusf.txt corpuse.txt > onetoone.txt
 python symbols.py 2 < onetoone.txt > onetoone.isym
 python symbols.py 3 < onetoone.txt > onetoone.osym
@@ -28,6 +33,7 @@ pdfcrop onetoone.pdf
 mv onetoone-crop.pdf onetoone.pdf
 open onetoone.pdf
 
+# Compose together a translation model and languge model
 fstcompile --keep_isymbols --keep_osymbols --isymbols=onetoone.isym --osymbols=bigram.isym onetoone.txt | fstarcsort --sort_type=olabel > onetoone.fst
 fstcompose onetoone.fst bigram.fst composed.fst
 fstdraw --show_weight_one composed.fst composed.dot
@@ -37,6 +43,7 @@ pdfcrop composed.pdf
 mv composed-crop.pdf composed.pdf
 open composed.pdf
 
+# Formulate the input as a WFST
 fstcompile --keep_isymbols --keep_osymbols --isymbols=onetoone.isym --osymbols=onetoone.isym input.txt input.fst
 fstdraw --acceptor input.fst input.dot
 dot -Tps input.dot > input.ps
@@ -45,6 +52,7 @@ pdfcrop input.pdf
 mv input-crop.pdf input.pdf
 open input.pdf
 
+# Compose together into a search graph
 fstcompose input.fst composed.fst search.fst
 fstdraw search.fst search.dot
 dot -Tps search.dot > search.ps
@@ -53,6 +61,7 @@ pdfcrop search.pdf
 mv search-crop.pdf search.pdf
 open search.pdf
 
+# Remove epsilons to make it easier to read
 fstrmepsilon search.fst searchrmeps.fst
 fstdraw searchrmeps.fst searchrmeps.dot
 dot -Tps searchrmeps.dot > searchrmeps.ps
@@ -61,6 +70,7 @@ pdfcrop searchrmeps.pdf
 mv searchrmeps-crop.pdf searchrmeps.pdf
 open searchrmeps.pdf
 
+# Some extra examples of composing
 python symbols.py 2 < t1.txt > t1.sym
 python symbols.py 2 < t2.txt > t2.sym
 python symbols.py 3 < t2.txt > t3.sym

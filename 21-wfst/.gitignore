@@ -1,0 +1,14 @@
+*.dot
+*.fst
+*.pdf
+*.ps
+bigram.isym
+bigram.txt
+onetoone.isym
+onetoone.osym
+onetoone.txt
+t1.sym
+t2.sym
+t2.txt
+t3.ssym
+t3.sym
